@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "watch": "hugo serve",
+    "build": "hugo"
+  }
+}
