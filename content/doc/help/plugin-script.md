@@ -6,9 +6,7 @@ title: プラグインスクリプト (廃止予定)
 
 **この機能は近日中に廃止予定です。**
 
-###
-
-### プラグインスクリプトとは
+# プラグインスクリプトとは
 
 設定ページでスクリプト(JavaScript)のURLを指定すると、しょぼいカレンダーで任意のスクリプトを実行できます。
 
@@ -26,13 +24,11 @@ URLは http:// から始まっている必要があるので、一時的にス�
 
 
 
-### Twitterでつぶやく
+# Twitterでつぶやく
 
-
-
-`http://cal.syoboi.jp/plugin_script/twitter.js`
-
-
+```
+http://cal.syoboi.jp/plugin_script/twitter.js
+```
 
 headとfmtパラメータが使えます。
 
@@ -40,7 +36,9 @@ headパラメータ
 
 
 
-`http://cal.syoboi.jp/plugin_script/twitter.js?head=見る:`
+```
+http://cal.syoboi.jp/plugin_script/twitter.js?head=見る:
+```
 
 
 
@@ -52,7 +50,9 @@ fmtパラメータ
 
 
 
-`http://cal.syoboi.jp/plugin_script/twitter.js?fmt=count`
+```
+http://cal.syoboi.jp/plugin_script/twitter.js?fmt=count
+```
 
 
 
@@ -64,21 +64,27 @@ fmtパラメータ
 
 
 
-`http://cal.syoboi.jp/plugin_script/text.js`
+```
+http://cal.syoboi.jp/plugin_script/text.js
+```
 
 
 
 
 
-### はてなスター設置
+# はてなスター設置
 
 2つのスクリプトを、順番どおりに記入する必要があります。
 
 
 
-`http://s.hatena.ne.jp/js/HatenaStar.js`
+```
+http://s.hatena.ne.jp/js/HatenaStar.js
+```
 
-`http://cal.syoboi.jp/plugin_script/hatenastar.js`
+```
+http://cal.syoboi.jp/plugin_script/hatenastar.js
+```
 
 
 
@@ -88,13 +94,14 @@ fmtパラメータ
 
 
 
-### またアニメ見てる
+# またアニメ見てる
 
 見ているアニメをtwitterでつぶやく「[またアニメ見てる](http://mataanimemitetari.shimasu.net/)」と似た書式でつぶやきます。(※適当に似せただけなのでまずい部分があるかも)
 
 
-
-`http://cal.syoboi.jp/plugin_script/mataanimemiteru.js`
+```
+http://cal.syoboi.jp/plugin_script/mataanimemiteru.js
+```
 
 
 

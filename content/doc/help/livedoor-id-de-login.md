@@ -4,7 +4,7 @@ title: livedoor ID でログイン(廃止)
 
 **livedoorAuth は 2021年3月末でサービス終了しました。**
 
-### 「livedoor IDでログイン」について
+# livedoor IDでログイン(廃止)
 
 livedoor IDを持っている場合は、livedoor IDでしょぼいカレンダーにログインすることができます。
 

@@ -3,7 +3,7 @@ title: 自分の録画予定を表示
 disableTableOfContents: true
 ---
 
-### 「自分の録画予定を表示」について
+# 自分の録画予定を表示
 
 利用している録画ソフトの予約リストをしょぼいカレンダーにアップロードすると、しょぼいカレンダー上で予約状況を確認できるようになります。
 
@@ -13,9 +13,9 @@ disableTableOfContents: true
 
 
 
-### アップロードの方法
+# アップロードの方法
 
-#### [TvRock](http://1st.geocities.jp/tvrock_web/)の場合
+## [TvRock](http://1st.geocities.jp/tvrock_web/)の場合
 
 tvrockSchUploader.js を入手します。
 
@@ -27,7 +27,9 @@ zipファイルから取り出した tvrockSchUploader.js を TvRock の作業�
 
 
 
-`MS:cscript tvrockSchUploader.js <user_id> <password> [epgurl] [slot]`
+```
+cscript tvrockSchUploader.js <user_id> <password> [epgurl] [slot]
+```
 
 
 
@@ -37,7 +39,9 @@ zipファイルから取り出した tvrockSchUploader.js を TvRock の作業�
 
 
 
-`MS:cscript tvrockSchUploader.js AB CD`
+```
+cscript tvrockSchUploader.js AB CD`
+```
 
 
 
@@ -57,7 +61,7 @@ zipファイルから取り出した tvrockSchUploader.js を TvRock の作業�
 
 
 
-#### [PLUMAGE](http://seraphy.fam.cx/~seraphy/pg_all.html)の場合
+## [PLUMAGE](http://seraphy.fam.cx/~seraphy/pg_all.html)の場合
 
 TvRockの場合ほど易しくありません。まず plumageSchUploader.js を入手します。
 
@@ -69,7 +73,9 @@ zipから取り出した plumageSchUploader.js を PLUMAGE.dat と同じディ�
 
 
 
-`cscript plumageSchUploader.js <user_id> <password> [slot]`
+```
+cscript plumageSchUploader.js <user_id> <password> [slot]
+```
 
 
 
@@ -77,7 +83,9 @@ zipから取り出した plumageSchUploader.js を PLUMAGE.dat と同じディ�
 
 
 
-`cscript plumageSchUploader.js AB CD`
+```
+cscript plumageSchUploader.js AB CD
+```
 
 
 
@@ -91,17 +99,15 @@ zipから取り出した plumageSchUploader.js を PLUMAGE.dat と同じディ�
 
 
 
-[![](jibun-no-rokuga-yotei-wo-hyouji/fidgae20100401213611pimage.png)](jibun-no-rokuga-yotei-wo-hyouji/fidgae20100401213611pimage.png)
+![](fidgae20100401213611pimage.png)
 
 
 
-[![](jibun-no-rokuga-yotei-wo-hyouji/fidgae20100401213612pimage.png)](jibun-no-rokuga-yotei-wo-hyouji/fidgae20100401213612pimage.png)
+![](fidgae20100401213612pimage.png)
 
 
 
-
-
-#### EDCB(EpgDataCap\_Bon)の場合
+## EDCB(EpgDataCap\_Bon)の場合
 
 kkcald にアップロード機能が付いているようです。
 
@@ -111,7 +117,7 @@ kkcald にアップロード機能が付いているようです。
 
 
 
-#### [foltia](http://www.dcc-jpl.com/soft/foltia/)の場合
+## [foltia](http://www.dcc-jpl.com/soft/foltia/)の場合
 
 perlスクリプトがあるようです。
 
@@ -119,49 +125,36 @@ perlスクリプトがあるようです。
 
 
 
-#### その他のツールの場合
+## その他のツールの場合
 
-外部から予約リストが参照可能ならば、なんとかなるはずです。
-
+外部から予約リストが参照可能ならば、なんとかなるはずです。  
 アップロードに関する仕様は sch\_upload のページを確認してください。
 
 -   [sch\_upload](../spec/sch_upload.html)
 
 
-
-
-
-### アップロードしたデータを表示する
+# アップロードしたデータを表示する
 
 -   ログイン後の設定画面( http://cal.syoboi.jp/uc )で「自分の録画予定を表示」を「表示する」をクリックして、設定を保存します
 -   表示されないときは..
-
--   設定ページでアップロードがされたかどうかを確認してください
-
--   http://cal.syoboi.jp/uc でアップロード時間を確認してください
--   アップロード時間が記録されているのに表示されない場合は、アップロードしたデータが異常である可能性があります
-
--   アップロードのコマンドを手打ちしてエラーがないことを確認してください
-
--   エラーがない場合何も表示されませんが、エラーがある場合何らかのエラーが表示されます
+    -   設定ページでアップロードがされたかどうかを確認してください
+        -   http://cal.syoboi.jp/uc でアップロード時間を確認してください
+        -   アップロード時間が記録されているのに表示されない場合は、アップロードしたデータが異常である可能性があります
+    -   アップロードのコマンドを手打ちしてエラーがないことを確認してください
+        -   エラーがない場合何も表示されませんが、エラーがある場合何らかのエラーが表示されます
 
 
 
-### 補足情報
+# 補足情報
 
 -   読み込む順番
-
--   しょぼいカレンダーのデータ
--   ics(指定されていれば)
--   tsv(この機能でアップロードされるデータ)
-
+    -   しょぼいカレンダーのデータ
+    -   ics(指定されていれば)
+    -   tsv(この機能でアップロードされるデータ)
 -   しょぼいカレンダーのデータとの突き合わせ
-
--   開始時間とチャンネル名が一致しているかどうか**だけ**
-
--   どちらかの開始時間がずれている場合は別々の番組として表示されます
--   終了時間は考慮されませんので30分番組が突然1時間番組になっても一致していると見なされます(改善する予定)
--   チャンネル名は空白を削除して、英数字を半角にしてから一致するかどうか確認
-
--   「予約無効」に設定した番組が表示される(改善する予定)
+    -   開始時間とチャンネル名が一致しているかどうか**だけ**
+        -   どちらかの開始時間がずれている場合は別々の番組として表示されます
+        -   終了時間は考慮されませんので30分番組が突然1時間番組になっても一致していると見なされます(改善する予定)
+        -   チャンネル名は空白を削除して、英数字を半角にしてから一致するかどうか確認
+    -   「予約無効」に設定した番組が表示される(改善する予定)
 

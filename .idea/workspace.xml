@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="db8e720d-1d25-4ca5-bc0b-826e51efe977" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +23,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/layouts/partials/flex" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/content/doc/spec" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -29,31 +32,35 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\layouts\partials\flex" />
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\layouts\partials\original" />
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\static\js" />
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\doc\spec" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\doc\history" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\doc\rule" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\doc" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\rule" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\doc" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\doc\help" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help\legwork" />
       <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help\jibun-no-rokuga-yotei-wo-hyouji" />
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content" />
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help\plugin-script" />
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help\iepg" />
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.watch">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,7 +102,8 @@
       <updated>1619262298025</updated>
       <workItem from="1619262299459" duration="297000" />
       <workItem from="1619262605739" duration="38000" />
-      <workItem from="1619262658962" duration="2685000" />
+      <workItem from="1619262658962" duration="5030000" />
+      <workItem from="1619305349161" duration="10144000" />
     </task>
     <servers />
   </component>
