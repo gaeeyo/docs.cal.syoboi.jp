@@ -11,3 +11,4 @@ enableGitInfo = true
     BookToC=false
     BookSection='*'
     BookRepo = 'https://github.com/gaeeyo/doc.cal.syoboi.jp'
+    BookEditPath = 'edit/main'
