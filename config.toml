@@ -1,9 +1,13 @@
 baseURL = ""
-languageCode = "en-us"
+languageCode = "ja-jp"
 title = "しょぼいカレンダーのヘルプ"
 relativeURLs = true
+defaultContentLanguage = "ja"
 
 theme = "book"
+enableGitInfo = true
+
 [params]
-#     BookToC=false
+    BookToC=false
     BookSection='*'
+    BookRepo = 'https://github.com/gaeeyo/doc.cal.syoboi.jp'

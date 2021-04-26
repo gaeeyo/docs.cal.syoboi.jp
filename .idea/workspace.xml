@@ -51,7 +51,7 @@
       <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help\jibun-no-rokuga-yotei-wo-hyouji" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.watch">
+  <component name="RunManager" selected="npm.build">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -85,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.watch" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.watch" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +101,7 @@
       <workItem from="1619262299459" duration="297000" />
       <workItem from="1619262605739" duration="38000" />
       <workItem from="1619262658962" duration="5030000" />
-      <workItem from="1619305349161" duration="15943000" />
+      <workItem from="1619305349161" duration="16831000" />
     </task>
     <servers />
   </component>
