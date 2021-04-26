@@ -19,16 +19,16 @@ disableTableOfContents: true
 
 tvrockSchUploader.js を入手します。
 
--   [http://cal.syoboi.jp/client/tvrockSchUploader\_20100508.zip](http://cal.syoboi.jp/client/tvrockSchUploader_20100508.zip)
+- https://github.com/gaeeyo/tvrockSchUploader/raw/main/tvrockSchUploader.js
 
-zipファイルから取り出した tvrockSchUploader.js を TvRock の作業ディレクトリにコピーします。
+tvrockSchUploader.js を TvRock の作業ディレクトリにコピーします。
 
 そして、TvRockのプロセスの設定に以下の行を追加します。
 
 
 
 ```
-cscript tvrockSchUploader.js <user_id> <password> [epgurl] [slot]
+MS:cscript tvrockSchUploader.js <user_id> <password> [epgurl] [slot]
 ```
 
 
@@ -40,7 +40,7 @@ cscript tvrockSchUploader.js <user_id> <password> [epgurl] [slot]
 
 
 ```
-cscript tvrockSchUploader.js AB CD`
+MS:cscript tvrockSchUploader.js AB CD
 ```
 
 
@@ -65,9 +65,9 @@ cscript tvrockSchUploader.js AB CD`
 
 TvRockの場合ほど易しくありません。まず plumageSchUploader.js を入手します。
 
--   [http://cal.syoboi.jp/client/plumageSchUploader\_20100401.zip](http://cal.syoboi.jp/client/plumageSchUploader_20100401.zip)
+- https://github.com/gaeeyo/plumageSchUploader/raw/main/plumageSchUploader.js
 
-zipから取り出した plumageSchUploader.js を PLUMAGE.dat と同じディレクトリにコピーします。
+plumageSchUploader.js を PLUMAGE.dat と同じディレクトリにコピーします。
 
 コマンドプロンプトを開いて、スクリプトを実行します。スクリプトのパラメータは以下のようになっています。
 
@@ -130,7 +130,7 @@ perlスクリプトがあるようです。
 外部から予約リストが参照可能ならば、なんとかなるはずです。  
 アップロードに関する仕様は sch\_upload のページを確認してください。
 
--   [sch\_upload](../spec/sch_upload.html)
+-   [sch\_upload](/spec/sch_upload)
 
 
 # アップロードしたデータを表示する
