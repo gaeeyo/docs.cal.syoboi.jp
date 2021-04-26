@@ -1,8 +1,9 @@
 baseURL = ""
 languageCode = "en-us"
 title = "しょぼいカレンダーのヘルプ"
+relativeURLs = true
 
 theme = "book"
 [params]
-    BookToC=false
-    BookSection='doc'
+#     BookToC=false
+    BookSection='*'

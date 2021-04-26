@@ -44,23 +44,21 @@
       <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\rule" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content" />
       <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\doc" />
       <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\doc\help" />
       <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help\legwork" />
       <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help\jibun-no-rokuga-yotei-wo-hyouji" />
-      <recent name="C:\Users\naofumi\IdeaProjects\hugo-cal.syoboi.jp\content\help" />
     </key>
   </component>
   <component name="RunManager" selected="npm.watch">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,7 +101,7 @@
       <workItem from="1619262299459" duration="297000" />
       <workItem from="1619262605739" duration="38000" />
       <workItem from="1619262658962" duration="5030000" />
-      <workItem from="1619305349161" duration="10144000" />
+      <workItem from="1619305349161" duration="15943000" />
     </task>
     <servers />
   </component>
