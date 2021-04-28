@@ -1,0 +1,20 @@
+strong {
+  color: #932424;
+}
+
+h1 {
+  border-bottom: 4px solid #B1D0EF;
+  padding-bottom: 4px;
+}
+
+.book-menu .book-menu-content {
+  position: static;
+}
+
+aside nav ul {
+  a:hover {
+    opacity: 1;
+    text-decoration: underline;
+    //background-color: #E3F0FD;
+  }
+}
