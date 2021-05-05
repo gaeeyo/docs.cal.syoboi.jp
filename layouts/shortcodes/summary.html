@@ -1,0 +1,4 @@
+{{ with .Site.GetPage (.Get 0) }}
+{{ .Summary }}
+<a href="{{ .RelPermalink }}">{{ .Title }}をすべて表示</a>
+{{ end }}
