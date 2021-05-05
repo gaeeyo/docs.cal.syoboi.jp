@@ -1,5 +1,6 @@
 ---
 title: 障害情報
+draft: true
 ---
 
 # 障害情報
