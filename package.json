@@ -1,6 +1,6 @@
 {
   "scripts": {
     "watch": "hugo serve",
-    "build": "hugo"
+    "build": "hugo --minify"
   }
 }

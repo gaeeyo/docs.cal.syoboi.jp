@@ -7,6 +7,9 @@ defaultContentLanguage = "ja"
 theme = "book"
 enableGitInfo = true
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
     BookToC=false
     BookSection='*'
