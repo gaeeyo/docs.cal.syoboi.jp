@@ -3,8 +3,6 @@ title: サーバー
 draft: true
 ---
 
-# サーバー
-
 ## 2021-02-21
 
 - Vultr

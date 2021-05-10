@@ -3,8 +3,6 @@ title: syobocalPop (廃止)
 disableTableOfContents: true
 ---
 
-# syobocalPop (廃止)
-
 **このアプリはもう使用できません。**
 
 ## syobocalPopとは

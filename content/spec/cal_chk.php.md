@@ -2,8 +2,6 @@
 title: cal_chk.php 
 ---
 
-# cal_chk.php
-
 ## 概要
 
 -   cal\_chk.php は cal\_chk.xml の代わりになるものです。

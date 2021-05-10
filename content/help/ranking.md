@@ -2,8 +2,6 @@
 title: ランキングについて
 ---
 
-# ランキングについて
-
 下記のリンクからしょぼいカレンダー内のデータに基づいたランキングを見ることができます。
 
 -   [http://cal.syoboi.jp/rank2](http://cal.syoboi.jp/rank2)

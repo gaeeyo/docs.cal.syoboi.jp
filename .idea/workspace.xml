@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db8e720d-1d25-4ca5-bc0b-826e51efe977" name="Default Changelist" comment="" />
+    <list default="true" id="db8e720d-1d25-4ca5-bc0b-826e51efe977" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/partials/docs/inject/content-before.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/_custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/_custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/about/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/about/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/etc/failure.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/etc/failure.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/etc/server.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/etc/server.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/iepg.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/iepg.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/jibun-no-rokuga-yotei-wo-hyouji/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/jibun-no-rokuga-yotei-wo-hyouji/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/jibun-no-rokuga-yotei-wo-hyouji/plumageschuploader-js.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/jibun-no-rokuga-yotei-wo-hyouji/plumageschuploader-js.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/jibun-no-rokuga-yotei-wo-hyouji/tvrockSchUploader-js.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/jibun-no-rokuga-yotei-wo-hyouji/tvrockSchUploader-js.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/jibun-no-rokuga-yotei-wo-hyouji/yoyakusuu-ranking.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/jibun-no-rokuga-yotei-wo-hyouji/yoyakusuu-ranking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/legwork.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/legwork.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/livedoor-id-de-login.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/livedoor-id-de-login.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/mng.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/mng.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/niteirukamoshirenai-bangumi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/niteirukamoshirenai-bangumi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/plugin-script.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/plugin-script.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/ranking.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/ranking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/syobocalpop.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/syobocalpop.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/help/tsuika-no-parameta.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/help/tsuika-no-parameta.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/rule/bot.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/rule/bot.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/rule/channel.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/rule/channel.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/rule/editing-rules.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/rule/editing-rules.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/rule/editing.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/rule/editing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/rule/goods.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/rule/goods.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/rule/short-title.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/rule/short-title.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/rule/title-category.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/rule/title-category.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/cal_chk.php.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/cal_chk.php.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/chid-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/chid-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/db.php.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/db.php.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/feeds.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/feeds.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/json.php.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/json.php.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/link-thumbnail.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/link-thumbnail.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/proginfo-flag.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/proginfo-flag.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/rate_limit.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/rate_limit.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/rss.php.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/rss.php.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/rss2.php.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/rss2.php.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/sch_upload.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/sch_upload.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/title-cat.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/title-cat.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/spec/userconfinfo-confflag.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/spec/userconfinfo-confflag.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +56,19 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1rc4yL15VCrlV5NJIzop3C1SmKU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,6 +76,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/content/doc/spec" />
@@ -34,6 +90,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

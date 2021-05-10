@@ -2,8 +2,6 @@
 title: rss.php 
 ---
 
-# rss.php
-
 ## rss.php とは
 
 番組データをRSSで返す。

@@ -1,9 +1,8 @@
 ---
 title: 自分の録画予定を表示
 disableTableOfContents: true
+bookToC: true
 ---
-
-# 自分の録画予定を表示
 
 利用している録画ソフトの予約リストをしょぼいカレンダーにアップロードすると、しょぼいカレンダー上で予約状況を確認できるようになります。
 
@@ -13,9 +12,11 @@ disableTableOfContents: true
 
 
 
-# アップロードの方法
+## アップロードの方法
 
-## [TvRock](http://1st.geocities.jp/tvrock_web/)の場合
+### TvRockの場合
+
+- [TvRock](http://1st.geocities.jp/tvrock_web/)
 
 tvrockSchUploader.js を入手します。
 
@@ -61,7 +62,9 @@ MS:cscript tvrockSchUploader.js AB CD
 
 
 
-## [PLUMAGE](http://seraphy.fam.cx/~seraphy/pg_all.html)の場合
+### PLUMAGEの場合
+
+- [PLUMAGE](http://seraphy.fam.cx/~seraphy/pg_all.html)
 
 TvRockの場合ほど易しくありません。まず plumageSchUploader.js を入手します。
 
@@ -107,7 +110,7 @@ cscript plumageSchUploader.js AB CD
 
 
 
-## EDCB(EpgDataCap\_Bon)の場合
+### EDCB(EpgDataCap\_Bon)の場合
 
 kkcald にアップロード機能が付いているようです。
 
@@ -117,7 +120,9 @@ kkcald にアップロード機能が付いているようです。
 
 
 
-## [foltia](http://www.dcc-jpl.com/soft/foltia/)の場合
+### foltiaの場合
+
+- [foltia](http://www.dcc-jpl.com/soft/foltia/)
 
 perlスクリプトがあるようです。
 
@@ -125,7 +130,7 @@ perlスクリプトがあるようです。
 
 
 
-## その他のツールの場合
+### その他のツールの場合
 
 外部から予約リストが参照可能ならば、なんとかなるはずです。  
 アップロードに関する仕様は sch\_upload のページを確認してください。
@@ -133,7 +138,7 @@ perlスクリプトがあるようです。
 -   [sch\_upload](/spec/sch_upload)
 
 
-# アップロードしたデータを表示する
+## アップロードしたデータを表示する
 
 -   ログイン後の設定画面( http://cal.syoboi.jp/uc )で「自分の録画予定を表示」を「表示する」をクリックして、設定を保存します
 -   表示されないときは..
@@ -145,7 +150,7 @@ perlスクリプトがあるようです。
 
 
 
-# 補足情報
+## 補足情報
 
 -   読み込む順番
     -   しょぼいカレンダーのデータ

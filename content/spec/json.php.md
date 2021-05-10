@@ -2,8 +2,6 @@
 title: json.php
 ---
 
-# json.php
-
 ## json.php
 
 - 内部的に使ったりしてるjsonのメモ書き

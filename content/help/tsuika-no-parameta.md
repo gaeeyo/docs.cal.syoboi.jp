@@ -2,8 +2,6 @@
 title: 追加のパラメータ
 ---
 
-# 追加のパラメータ
-
 [設定画面](https://cal.syoboi.jp/config)にある「追加のパラメータ」のメモ。
 
 -   gcal

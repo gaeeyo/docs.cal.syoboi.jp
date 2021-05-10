@@ -2,8 +2,6 @@
 title: db.php
 ---
 
-# db.php
-
 ## db.php について
 
 データベースからXMLでデータを出力するスクリプト。  
