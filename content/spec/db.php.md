@@ -64,7 +64,7 @@ Commandパラメータに取得したいデータを指定します。(Command=T
 
 番組表ではサブタイトルが表示されているのに、db.phpの結果のSubTitleが空になっていることがあります。  
 番組表と同じサブタイトルを表示するためには、別途サブタイトルテーブルからTIDとCountで検索するか、
-JOIN=SubTitleパラメータを追加してSTSubTitleを利用します。  
+JOIN=SubTitlesパラメータを追加してSTSubTitleを利用します。  
 サブタイトルテーブルはタイトルデータのSubTitlesをパースして生成されています。  
 このため、サブタイトルが修正されても放送時間データのLastUpdateは更新されません。
 

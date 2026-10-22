@@ -15,8 +15,8 @@ title: json.php
 |Req|コマンド|その他|
 |---|---|---|
 |callback|コールバックする関数|オプション|
-|Start|"YYYY-MM-DD" で日付、/^-(\\d+)d$/ でn日前| |
-|Days|Startからの日数(1～32)| |
+|start|"YYYY-MM-DD" で日付、/^-(\\d+)d$/ でn日前| |
+|days|startからの日数(1～32)| |
 |TID| | |
 |PID| | |
 |ChID| | |
@@ -39,7 +39,7 @@ ProgramByのあとにじっこうTitle*が実行されるときは、ProgramBy�
     - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle,SubTitle2
 - ProgramByCount TID, Count (ChID)
     - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle,SubTitle2
-- ProgramByDate Start, Days (TID, ChID)
+- ProgramByDate start, days (TID, ChID)
     - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle,SubTitle2
 - SubTitles TID, Count
 - ChFilter
