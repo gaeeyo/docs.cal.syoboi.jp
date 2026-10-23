@@ -12,6 +12,8 @@ title: db.php
 Commandパラメータに取得したいデータを指定します。(Command=TitleLookup のように指定する)  
 基本的にdb.phpは、テーブルの生データをそのまま出力することを目的としています。
 
+Fieldsパラメータには、各コマンドで指定可能なフィールド名をカンマ区切りで指定します。記載のないフィールド名を指定するとエラーになります。
+
 ## タイトルデータの取得 (TitleLookup)
 
 データベースに格納されているタイトルデータをそのまま出力します。
@@ -30,6 +32,12 @@ Commandパラメータに取得したいデータを指定します。(Command=T
     -   出力するフィールドをカンマ区切りで指定。未指定の場合はすべて出力。ただし、TID=\* の場合はTIDのみ指定可能
         -   Fields=TID (TIDだけを出力する)
         -   Fields=Title,Cat (TitleとCatを出力する)
+
+Fieldsに指定可能な値:
+
+`TID`, `LastUpdate`, `Title`, `ShortTitle`, `TitleYomi`, `TitleEN`, `Comment`, `Cat`, `TitleFlag`, `FirstYear`, `FirstMonth`, `FirstEndYear`, `FirstEndMonth`, `FirstCh`, `Keywords`, `UserPoint`, `UserPointRank`, `SubTitles`
+
+ただし、TID=\* の場合は `TID` のみです。
 
 ## 使用例
 
@@ -68,6 +76,12 @@ Commandパラメータに取得したいデータを指定します。(Command=T
     -   JOIN=SubTitles でSTSubTitleフィールドが追加される(サブタイトルテーブルの内容が結合される)
 -   PID カンマ区切り。未指定の場合すべて
 
+Fieldsに指定可能な値:
+
+`LastUpdate`, `PID`, `TID`, `StTime`, `StOffset`, `EdTime`, `Count`, `SubTitle`, `ProgComment`, `Flag`, `Deleted`, `Warn`, `ChID`, `Revision`
+
+JOIN=SubTitlesを指定した場合は `STSubTitle` も指定可能です。`PID` はFieldsから省略しても出力されます。
+
 ## 注意
 
 番組表ではサブタイトルが表示されているのに、db.phpの結果のSubTitleが空になっていることがあります。  
@@ -80,11 +94,21 @@ JOIN=SubTitlesパラメータを追加してSTSubTitleを利用します。
 
 -   ChID
 -   LastUpdate
+-   Fields 出力するフィールドをカンマ区切りで指定。未指定の場合すべて
+
+Fieldsに指定可能な値:
+
+`LastUpdate`, `ChID`, `ChName`, `ChiEPGName`, `ChURL`, `ChEPGURL`, `ChComment`, `ChGID`, `ChNumber`
 
 ### チャンネルグループデータの取得 (ChGroupLookup)
 
 -   ChGID
 -   LastUpdate
+-   Fields 出力するフィールドをカンマ区切りで指定。未指定の場合すべて
+
+Fieldsに指定可能な値:
+
+`LastUpdate`, `ChGID`, `ChGroupName`, `ChGroupComment`, `ChGroupOrder`
 
 ## タイトルページのページビュー取得 (TitleViewCount)
 
