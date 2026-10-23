@@ -36,17 +36,24 @@ ProgramByのあとにじっこうTitle*が実行されるときは、ProgramBy�
     - Title, ShortTitle, TitleYomi, Comment, Cat, TitleFlag, FirstYear, FirstMonth, FirstCh, FirstEndYear, FirstEndMonth, Keywords, UserPoint, UserPointRank, TitleViewCount,Comment,SubTitles
         - だいたい5MBくらい(2007-10-23現在)
 - ProgramByPID PID (TID, ChID)
-    - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle,SubTitle2
+    - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle2,ProgComment,ConfFlag
 - ProgramByCount TID, Count (ChID)
-    - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle,SubTitle2
+    - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle2,ProgComment,ConfFlag
 - ProgramByDate start, days (TID, ChID)
-    - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle,SubTitle2
+    - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle2,ProgComment,ConfFlag
 - SubTitles TID, Count
 - ChFilter
-- ChIDFilter
 - TitleSearch
     - ヘッダーの検索窓で使用している検索機能。ヒットした番組と直近の放送予定が取得できる
     - json?Req=TitleSearch&Search=%E3%81%B7%E3%82%8A&Limit=15
+
+## ProgramBy系の出力について
+
+ProgramByPID、ProgramByCount、ProgramByDateの`SubTitle2`は、放送時間データの個別のサブタイトルです。タイトル・話数ごとの共通のサブタイトルは、`Req=SubTitles`で取得してください。ProgramBy系の結果には`SubTitle`は含まれません。
+
+`Req=SubTitles`の結果は、`SubTitles[TID][Count]`をキーにサブタイトルを取得できる構造です。
+
+`ProgComment`は放送時間データのコメントです。`ConfFlag`はユーザー設定に関する値で、ユーザー情報を取得する条件を満たさない場合は`null`になります。
 
 ## 変更履歴
 
