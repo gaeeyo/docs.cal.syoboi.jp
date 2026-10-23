@@ -37,10 +37,7 @@ title: rss2.php
 - alt
     - rss: RSS2.0
     - ical: iCalendar
-    - json: JSON/JSONP(rss.phpと違って、番組表として処理される前の生のデータ)
-- callback
-    - jsonのcallback先の関数名
-    - alt=jsonの時のみ有効
+    - json: JSON(rss.phpと違って、番組表として処理される前の生のデータ)
 - usch
     - 1: ユーザによってアップロードされたスケジュールを含む
     - 有効なusrの指定が必要
