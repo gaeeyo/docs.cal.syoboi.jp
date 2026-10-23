@@ -86,15 +86,7 @@ JOIN=SubTitlesパラメータを追加してSTSubTitleを利用します。
 -   ChGID
 -   LastUpdate
 
-## サブタイトルデータの取得
-
--   STID
--   TID
--   Count
-
 ## タイトルページのページビュー取得 (TitleViewCount)
-
-## タイトルのポイントランキング履歴取得 (TitleRankHistory) 2020/02/06廃止
 
 ## タイトルのポイント履歴取得 (TitlePointHistory)
 
