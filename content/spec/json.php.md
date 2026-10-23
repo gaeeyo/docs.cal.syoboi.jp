@@ -29,6 +29,18 @@ ProgramBy系のコマンドは、`TID`が未指定の場合は結果のタイト
 
 例えば、`Req=ProgramByPID,TitleMedium,SubTitles&PID=12345`と指定すると、その放送時間データと、対応するタイトル情報・サブタイトルをまとめて取得できます。
 
+## 返却データの参照方法
+
+結果は情報の種類ごとに分かれています。JavaScriptでレスポンスを`data`として受け取った場合は、次のように参照します。
+
+| 取得する情報 | 参照方法 |
+| --- | --- |
+| タイトル情報 | `data.Titles[TID]` |
+| 放送時間データ | `data.Programs[PID]` |
+| 共通サブタイトル | `data.SubTitles[TID][Count]` |
+
+`TID`はタイトルID、`PID`は放送時間データのID、`Count`は話数です。例えば、`data.Programs[12345].TID`でその放送のタイトルIDを取得し、`data.Titles[そのタイトルID].Title`でタイトル名を参照できます。参照する前に、対象のデータが返っていることを確認してください。
+
 ## サービス内での利用例
 
 ### ヘッダーの検索候補
@@ -65,12 +77,14 @@ ProgramBy系のコマンドは、`TID`が未指定の場合は結果のタイト
 
 ## コマンド パラメータ (オプション)
 
-TitleMedium、TitleLarge、TitleFullは、次の共通項目を返します。
+TitleShort、TitleMedium、TitleLarge、TitleFullは、次の共通項目を返します。
 
 `TID`, `Title`, `ShortTitle`, `TitleYomi`, `TitleEN`, `Cat`, `FirstCh`, `FirstYear`, `FirstMonth`, `FirstEndYear`, `FirstEndMonth`, `TitleFlag`
 
-各コマンドの追加項目は次のとおりです。
+各コマンドの出力は次のとおりです。
 
+- TitleShort TID
+    - 共通項目のみ
 - TitleMedium TID
     - 共通項目に加えて、Links
     - Linksはタイトルのコメントから抽出したリンク情報
@@ -83,14 +97,27 @@ TitleMedium、TitleLarge、TitleFullは、次の共通項目を返します。
 - ProgramByPID PID (TID, ChID)
     - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle2,ProgComment,ConfFlag
 - ProgramByCount TID, Count (ChID)
+    - 指定したタイトル・話数の放送データを取得します。TIDは必須で、単一のタイトルIDを指定します。未指定・空文字・複数指定・不正な形式の場合はHTTP 400を返します。先行するコマンドによるTIDの補完には依存せず、リクエストに明示してください。
     - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle2,ProgComment,ConfFlag
-- ProgramByDate start, days (TID, ChID)
+- ProgramByDate (start, days, TID, ChID)
+    - start・daysは省略可能。日付範囲の指定方法は後述します。
     - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle2,ProgComment,ConfFlag
-- SubTitles TID, Count
+- SubTitles TID (Count)
+    - Countを省略すると、指定タイトルの全話のサブタイトルを取得します。
 - ChFilter
 - TitleSearch
     - ヘッダーの検索窓で使用している検索機能。ヒットした番組と直近の放送予定が取得できる
     - json?Req=TitleSearch&Search=%E3%81%B7%E3%82%8A&Limit=15
+
+## ProgramByDateの日付範囲
+
+`start`には`YYYY-MM-DD`形式の日付、または`-1d`のように何日前かを指定します。省略した場合は、現在日時を含むサービス上の1日の開始が取得範囲の開始になります。
+
+1日の区切りは既定では午前5時です。例えば、午前2時に`start`を省略すると、前日の午前5時が開始になります。`start=2026-10-23`と指定した場合は、既定の区切りでは2026年10月23日午前5時が開始です。
+
+`days`は開始からの日数で、省略時は1です。指定値は整数に変換され、1未満は1、32を超える値は32として扱います。`start`と`days`を両方省略すると、現在日時を含むサービス上の1日分を取得します。
+
+取得するのは、その範囲と放送時間が重なる番組です。範囲の開始前に放送が始まり、開始後まで続く番組も含みます。
 
 ## ProgramBy系の出力について
 
@@ -98,4 +125,22 @@ ProgramByPID、ProgramByCount、ProgramByDateの`SubTitle2`は、放送時間デ
 
 `Req=SubTitles`の結果は、`SubTitles[TID][Count]`をキーにサブタイトルを取得できる構造です。
 
-`ProgComment`は放送時間データのコメントです。`ConfFlag`はユーザー設定に関する値で、ユーザー情報を取得する条件を満たさない場合は`null`になります。
+`ProgComment`は放送時間データのコメントです。
+
+### ユーザーの強調設定（ConfFlag）
+
+ProgramBy系の結果には、常に`ConfFlag`が含まれます。ユーザーの強調設定の値を取得するには、次の条件を満たす必要があります。
+
+- `UserInfo=1`を指定している。
+- サーバー側でログインユーザーを認識できている。
+- 対象のタイトル・チャンネルにユーザー設定が存在する。
+
+条件を満たさない場合は`null`です。
+
+`UserInfo=1`だけでは自動ログインの確認は有効になりません。サービス内のポップアップと同様に、`Req`に`ChFilter`も含めると、自動ログインの確認が有効になります。
+
+```text
+/json.php?Req=ProgramByPID,ChFilter&PID=12345&UserInfo=1
+```
+
+この例では、ログイン状態とユーザー設定に応じて、`Programs[12345].ConfFlag`に強調設定の値が入ります。
