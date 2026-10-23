@@ -27,13 +27,20 @@ ProgramByのあとにじっこうTitle*が実行されるときは、ProgramBy�
 
 ## コマンド パラメータ (オプション)
 
+TitleMedium、TitleLarge、TitleFullは、次の共通項目を返します。
+
+`TID`, `Title`, `ShortTitle`, `TitleYomi`, `TitleEN`, `Cat`, `FirstCh`, `FirstYear`, `FirstMonth`, `FirstEndYear`, `FirstEndMonth`, `TitleFlag`
+
+各コマンドの追加項目は次のとおりです。
+
 - TitleMedium TID
-    - Title, ShortTitle, Links
+    - 共通項目に加えて、Links
+    - Linksはタイトルのコメントから抽出したリンク情報
 - TitleLarge TID
-    - (TitleFullからCommentとSubTitlesを削除したもの)
+    - 共通項目に加えて、Keywords, UserPoint, UserPointRank, TitleViewCount
         - だいたい60KBくらい(2007-10-23現在)
 - TitleFull TID
-    - Title, ShortTitle, TitleYomi, Comment, Cat, TitleFlag, FirstYear, FirstMonth, FirstCh, FirstEndYear, FirstEndMonth, Keywords, UserPoint, UserPointRank, TitleViewCount,Comment,SubTitles
+    - 共通項目に加えて、Keywords, UserPoint, UserPointRank, TitleViewCount, Comment, SubTitles
         - だいたい5MBくらい(2007-10-23現在)
 - ProgramByPID PID (TID, ChID)
     - PID,TID,ChID,ChName,ChEPGURL,Count,StTime,EdTime,SubTitle2,ProgComment,ConfFlag
