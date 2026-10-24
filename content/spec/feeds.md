@@ -1,11 +1,14 @@
 ---
 title: データを取得する方法 
+date: 2026-10-23T23:48:31+09:00
 ---
 
 ## HTML以外でデータを出力するもの一覧
 
 - rss.php 番組表RSS
-    - http://cal.syoboi.jp/rss.php (RSS 1.0/iCalendar)
+    - http://cal.syoboi.jp/rss.php (RSS 1.0/iCalendar/JSON)
+- rss2.php 番組表RSS（アップロード・共有された録画予定にも対応）
+    - http://cal.syoboi.jp/rss2.php (RSS 2.0/iCalendar/JSON)
 - proginfo.xml 放送時間データの更新時間
     - http://cal.syoboi.jp/proginfo.xml (RSS 2.0)
 - titleinfo.xml タイトルデータの更新時間
@@ -14,9 +17,9 @@ title: データを取得する方法
     - http://cal.syoboi.jp/chinfo.xml (RSS 2.0)
 - db.php データいろいろ(実験的なもの)
     - http://cal.syoboi.jp/db.php
-- サンプル: http://cal.syoboi.jp/graph.php?src=Command%3DTitlePointHistory%26TID%3D491
-    - json.php データいろいろ(実験的なもの)
-- http://cal.syoboi.jp/json.php
+    - サンプル: http://cal.syoboi.jp/graph.php?src=Command%3DTitlePointHistory%26TID%3D491
+- json.php データいろいろ(実験的なもの)
+    - http://cal.syoboi.jp/json.php
     - サンプル: http://blog.livedoor.jp/gaeeyo/archives/361911.html
 - ical.php 番組表をiCalendarで
     - http://cal.syoboi.jp/ical.php
