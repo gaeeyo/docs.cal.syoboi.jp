@@ -1,6 +1,6 @@
 ---
 title: rss.php 
-date: 2026-10-24T09:09:17+09:00
+date: 2026-10-24T11:34:57+09:00
 ---
 
 ## rss.php とは
@@ -35,9 +35,6 @@ date: 2026-10-24T09:09:17+09:00
 - alt (デフォルト:rss)
     - 出力する形式
     - rss: RSS1.0、json: JSON、ical: iCalendar
-- callback
-    - alt=jsonの時のみ有効
-    - callback関数名
 
 ## start, lastupdate の書式
 
