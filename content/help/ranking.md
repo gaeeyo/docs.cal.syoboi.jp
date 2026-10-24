@@ -1,10 +1,11 @@
 ---
 title: ランキングについて
+date: 2026-10-24T09:09:17+09:00
 ---
 
 下記のリンクからしょぼいカレンダー内のデータに基づいたランキングを見ることができます。
 
--   [http://cal.syoboi.jp/rank2](http://cal.syoboi.jp/rank2)
+-   [https://cal.syoboi.jp/rank2](https://cal.syoboi.jp/rank2)
 
 
 

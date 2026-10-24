@@ -1,13 +1,13 @@
 ---
 title: rss.php 
-date: 2026-10-24T08:46:44+09:00
+date: 2026-10-24T09:09:17+09:00
 ---
 
 ## rss.php とは
 
 番組データをRSSで返す。
-- http://cal.syoboi.jp/rss.php
-- クエリ作成ツール → http://cal.syoboi.jp/util/rssbuilder
+- https://cal.syoboi.jp/rss.php
+- クエリ作成ツール → https://cal.syoboi.jp/util/rssbuilder
 
 ## パラメータ
 

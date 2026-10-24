@@ -1,5 +1,6 @@
 ---
 title: プラグインスクリプト (廃止予定)
+date: 2026-10-24T09:16:04+09:00
 ---
 
 **お知らせ (2021-03-06)**
@@ -12,7 +13,7 @@ title: プラグインスクリプト (廃止予定)
 
 設定はこちらから。(この機能はログインしなければ使えません)
 
--   [http://cal.syoboi.jp/uc](http://cal.syoboi.jp/uc)
+-   [https://cal.syoboi.jp/uc](https://cal.syoboi.jp/uc)
 
 
 
@@ -27,7 +28,7 @@ URLは http:// から始まっている必要があるので、一時的にス�
 ## Twitterでつぶやく
 
 ```
-http://cal.syoboi.jp/plugin_script/twitter.js
+https://cal.syoboi.jp/plugin_script/twitter.js
 ```
 
 headとfmtパラメータが使えます。
@@ -37,7 +38,7 @@ headパラメータ
 
 
 ```
-http://cal.syoboi.jp/plugin_script/twitter.js?head=見る:
+https://cal.syoboi.jp/plugin_script/twitter.js?head=見る:
 ```
 
 
@@ -51,7 +52,7 @@ fmtパラメータ
 
 
 ```
-http://cal.syoboi.jp/plugin_script/twitter.js?fmt=count
+https://cal.syoboi.jp/plugin_script/twitter.js?fmt=count
 ```
 
 
@@ -65,7 +66,7 @@ http://cal.syoboi.jp/plugin_script/twitter.js?fmt=count
 
 
 ```
-http://cal.syoboi.jp/plugin_script/text.js
+https://cal.syoboi.jp/plugin_script/text.js
 ```
 
 
@@ -79,11 +80,11 @@ http://cal.syoboi.jp/plugin_script/text.js
 
 
 ```
-http://s.hatena.ne.jp/js/HatenaStar.js
+https://s.hatena.ne.jp/js/HatenaStar.js
 ```
 
 ```
-http://cal.syoboi.jp/plugin_script/hatenastar.js
+https://cal.syoboi.jp/plugin_script/hatenastar.js
 ```
 
 
@@ -100,7 +101,7 @@ http://cal.syoboi.jp/plugin_script/hatenastar.js
 
 
 ```
-http://cal.syoboi.jp/plugin_script/mataanimemiteru.js
+https://cal.syoboi.jp/plugin_script/mataanimemiteru.js
 ```
 
 
