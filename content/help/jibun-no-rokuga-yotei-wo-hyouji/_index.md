@@ -2,7 +2,7 @@
 title: 自分の録画予定を表示
 disableTableOfContents: true
 bookToC: true
-date: 2026-10-24T09:16:04+09:00
+date: 2026-10-24T09:34:24+09:00
 ---
 
 利用している録画ソフトの予約リストをしょぼいカレンダーにアップロードすると、しょぼいカレンダー上で予約状況を確認できるようになります。
@@ -58,64 +58,6 @@ MS:cscript tvrockSchUploader.js AB CD
 以上で、TvRock の予約リストが変更される度に自動的にアップロードされるようになります。
 
 設定が間違っていなければTvRockで予約の状態を変更すると自動的にアップロードされ、しょぼいカレンダーに反映されます。
-
-
-
-
-
-### PLUMAGEの場合
-
-- [PLUMAGE](http://seraphy.fam.cx/~seraphy/pg_all.html)
-
-TvRockの場合ほど易しくありません。まず plumageSchUploader.js を入手します。
-
-- https://github.com/gaeeyo/plumageSchUploader/raw/main/plumageSchUploader.js
-
-plumageSchUploader.js を PLUMAGE.dat と同じディレクトリにコピーします。
-
-コマンドプロンプトを開いて、スクリプトを実行します。スクリプトのパラメータは以下のようになっています。
-
-
-
-```
-cscript plumageSchUploader.js <user_id> <password> [slot]
-```
-
-
-
-<user_id> と <password> には自分のものを設定してください。ユーザIDが「AB」でパスワードが「CD」の場合、以下のようにします。
-
-
-
-```
-cscript plumageSchUploader.js AB CD
-```
-
-
-
-あとは、タスクスケジューラなどを使って、コマンドが定期的に実行されるようにします。
-
-
-
-
-
-うまく動かすためには、PLUMAGEの予約一覧でチャンネル名が表示された状態になっている必要があります。リモコン信号を設定していない場合にも、「.」などを使ってチャンネル名が一覧で表示されるように設定します。
-
-
-
-![](fidgae20100401213611pimage.png)
-
-
-
-![](fidgae20100401213612pimage.png)
-
-
-
-### EDCB(EpgDataCap\_Bon)の場合
-
-kkcald にアップロード機能が付いているようです。
-
--   [検索結果を時間軸で表示 kkcald](http://ueno.cool.ne.jp/kkcal/)
 
 
 

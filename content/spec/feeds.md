@@ -1,6 +1,6 @@
 ---
 title: データを取得する方法 
-date: 2026-10-24T09:09:17+09:00
+date: 2026-10-24T09:38:14+09:00
 ---
 
 ## HTML以外でデータを出力するもの一覧
@@ -26,7 +26,5 @@ date: 2026-10-24T09:09:17+09:00
     - 変わりにrss.phpが使えます
 - rank 予約数のランキング
     - https://cal.syoboi.jp/reserve/rank?alt=json (テンプレートに渡されてるデータそのまま)
-- しょぼいカレンダーグループのキーワードのRSS (ここのWiki)
-    - https://syobocal.g.hatena.ne.jp/keywordlist?mode=rss (RSS 1.0)
 - したらばの掲示板のRSS
     - https://jbbs.livedoor.jp/bbs/subject.cgi/anime/3083/rss (RSS 1.0)
