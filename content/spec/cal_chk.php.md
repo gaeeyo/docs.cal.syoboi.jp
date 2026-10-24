@@ -1,5 +1,6 @@
 ---
 title: cal_chk.php 
+date: 2026-10-23T23:48:31+09:00
 ---
 
 ## 概要
@@ -12,8 +13,9 @@ title: cal_chk.php
 
 |名前|内容 |サンプル|
 |---|---|---|
-|usr    |UserID |usr=gae|
-|cookie |0:指定なし, 1:クッキーのチャンネルフィルタを使う|cookie=1|
+|usr    |UserID。指定ユーザのチャンネル設定を使用し、cookieより優先 |usr=gae|
+|cookie |0:指定なし, 1:クッキーのチャンネルフィルタを使う（usr省略時のみ）|cookie=1|
+|alt    |json: JSON形式で出力。省略時はXML |alt=json|
 |start  |取得開始する日YYYY-MM-DD形式の日付 |start=2009-01-01|
 |days   |取得する日数。省略時は14日。数字のみの指定を受け付け、30を超える場合は30日になります| days=1|
 
