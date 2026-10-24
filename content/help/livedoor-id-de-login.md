@@ -1,6 +1,7 @@
 ---
 title: livedoor ID でログイン(廃止)
-date: 2026-10-24T09:16:04+09:00
+bookHidden: true
+date: 2026-10-24T16:26:11+09:00
 ---
 
 **livedoorAuth は 2021年3月末でサービス終了しました。**

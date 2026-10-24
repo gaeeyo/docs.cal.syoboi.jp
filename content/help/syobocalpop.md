@@ -1,6 +1,8 @@
 ---
 title: syobocalPop (廃止)
 disableTableOfContents: true
+bookHidden: true
+date: 2026-10-24T16:26:11+09:00
 ---
 
 **このアプリはもう使用できません。**
